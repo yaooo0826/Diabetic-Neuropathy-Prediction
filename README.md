@@ -1,16 +1,16 @@
 # 糖尿病神經病變預測專案
-本專案旨在利用機器學習技術，透過患者的電生理數據以及多倫多量表數據預測糖尿病變（神經病變）的發生情形。
+本專案旨在利用機器學習技術，透過患者的電生理數據以及多倫多量表數據預測糖尿病變（神經病變）的發生情形。  
 專案主要以 Python 撰寫，並運用 pandas 與 scikit-learn 進行資料前處理、模型訓練與評估，同時支援對新資料進行預測。
 
 ## 專案內容
 ### 數據來源：
-DSPN data collection_2020.12.19 前後兩筆(加嚴重程度分類) 共394人.xlsx：包含394位患者的電生理及多倫多數據與評估結果。
-1-1新資料用來check_R2_20211220_2.xlsx：新患者資料，用於檢查模型預測效能。
+DSPN data collection_2020.12.19 前後兩筆(加嚴重程度分類) 共394人.xlsx：包含394位患者的電生理及多倫多數據與評估結果。  
+1-1新資料用來check_R2_20211220_2.xlsx：新患者資料，用於檢查模型預測效能。  
 神經病變測試結果.xlsx：模型預測結果（供參考與結果存檔）。
 
 ### 使用模型：
-邏輯回歸 (Logistic Regression)
-決策樹 (Decision Tree)
+邏輯回歸 (Logistic Regression)  
+決策樹 (Decision Tree)  
 隨機森林 (Random Forest)
 
 ### 評估指標：
@@ -20,7 +20,7 @@ F1 Score、Accuracy、Precision、Sensitivity (Recall)、Specificity 及 AUC。
 程式語言： Python
 
 ### 主要套件：
-pandas：數據讀取與處理
+pandas：數據讀取與處理  
 scikit-learn：數據前處理、模型訓練與評估
 
 
