@@ -22,19 +22,6 @@ DSPN data collection_2020.12.19 前後兩筆(加嚴重程度分類) 共395人.xl
 評估指標：
 F1 Score、Accuracy、Precision、Sensitivity (Recall)、Specificity 及 AUC。
 
-## 專案結構
-專案資料夾/
-├── data/
-│   ├── raw/
-│   │   ├── DSPN data collection_2020.12.19 前後兩筆(加嚴重程度分類) 共395人.xlsx
-│   │   ├── 1-1新資料用來check_R2_20211220_2.xlsx
-│   │   └── 神經病變測試結果.xlsx
-├── src/
-│   └── 預測患者是否有糖尿病變.py
-├── README.md
-├── requirements.txt
-└── .gitignore
-
 ## 使用技術
 程式語言： Python
 
