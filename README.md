@@ -23,10 +23,6 @@ DSPN data collection_2020.12.19 前後兩筆(加嚴重程度分類) 共395人.xl
 F1 Score、Accuracy、Precision、Sensitivity (Recall)、Specificity 及 AUC。
 
 ## 專案結構
-以下是一個建議的目錄結構，可幫助您更清晰地組織檔案：
-
-kotlin
-複製
 專案資料夾/
 ├── data/
 │   ├── raw/
