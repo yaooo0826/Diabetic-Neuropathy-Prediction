@@ -38,6 +38,7 @@ kotlin
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
 ## 使用技術
 程式語言： Python
 
